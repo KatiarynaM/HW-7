@@ -20,8 +20,7 @@ print(poem)
 count_vowels = []
 for i in range(len(poem)):
      word = poem[i]
-     count = sum(True for j in word if j == "а")
-     count_vowels.append(count)
+     count_vowels.append(sum(True for j in word if j == "а"))
 print(count_vowels)
 if sum(count_vowels) / len(count_vowels) == count_vowels[0]:
     print('Парам пам-пам')
