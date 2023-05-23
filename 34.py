@@ -11,7 +11,7 @@
 
 **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
     **Вывод:** Парам пам-пам'''
-poem = str(input('Введите cтихотворение  Винни-Пух: '))
+poem = str(input('Введите cтихотворение  Винни-Пуха: '))
 delim = " "
 poem = poem.replace("-", "").replace("е", "а").replace("ё", "а").replace("и", "а").replace("о", "а")
 poem = poem.replace("у", "а").replace("ы", "а").replace("э", "а").replace("ю", "а").replace("я", "а")
