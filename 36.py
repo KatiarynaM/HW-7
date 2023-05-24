@@ -9,3 +9,5 @@ house=дом car=машина men=человек tree=дерево
 Sample Output:
 (('house', 'дом'), ('car','машина'), ('men', 'человек'), ('tree', 'дерево'))'''
 
+string = 'house=дом car=машина men=человек tree=дерево'
+print (tuple(map(lambda x: tuple(x.split('=')), string.split())))
